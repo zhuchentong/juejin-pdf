@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JueJin PDF</title>
+  </head>
+  <body>
+    <form action="/pdf">
+      <div style="padding: 10px">
+        <input
+          name="course"
+          id="course_id"
+          placeholder="课程ID"
+          style="padding: 10px; min-width: 300px"
+        />
+      </div>
+      <div style="padding: 10px">
+        <input
+          name="cookie"
+          id="cookie"
+          placeholder="Cookie"
+          style="padding: 10px; min-width: 300px"
+        />
+      </div>
+      <div style="padding: 10px">
+        <input type="submit" id="submit" style="width: 100px; padding: 10px">提交</input>
+      </div>
+    </form>
+    <script type="text/javascript">
+      // document.getElementById('submit').addEventListener('click', () => {
+      //   const courseId = document.getElementById('course_id').value;
+      //   const cookie = document.getElementById('cookie').value;
+
+      //   fetch(`/pdf?course=${courseId}&cookie=${encodeURIComponent(cookie)}`, {
+      //     timeout: 900000,
+      //   }).then(async (data) => {
+      //     console.log(data);
+      //   });
+      // });
+    </script>
+  </body>
+</html>
